@@ -1,2 +1,1 @@
-在使用winform开发上位机的过程中，通常客户所使用的登陆方式为刷卡登录，并不允许直接手动输入密码：
-为此我使用一个timer控件设置一段事件间隔（手动输入达不到的间隔即可）定时将定时器禁用，并清空文本框，之后启用定时器
+In the process of developing a host computer application using WinForm, the login method typically used by customers is card swiping, and manual password entry is not allowed. For this reason, I use a Timer control to set a time interval (one that cannot be achieved through manual input) to periodically disable the timer, clear the text box, and then re-enable the timer.
